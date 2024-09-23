@@ -1,5 +1,4 @@
 import SignInComponent from '@/components/organisms/SignInComponent';
-import SignUpComponent from '@/components/organisms/SignUpComponent';
 
 export default function SignInPage() {
   return (

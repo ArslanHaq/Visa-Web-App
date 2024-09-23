@@ -1,7 +1,9 @@
+import ComingSoonComponent from "@/components/atoms/ComingSoonComponent";
+
 export default function StatisticsPage() {
   return (
-    <div>
-      <h1>Statistics Page</h1>
+    <div className="h-full">
+      <ComingSoonComponent />
     </div>
   );
 }
