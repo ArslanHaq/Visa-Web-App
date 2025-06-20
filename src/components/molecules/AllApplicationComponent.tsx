@@ -33,7 +33,6 @@ export default function AllApplicationComponent() {
             }
 
             setApplications((prevApplications) => [...prevApplications, ...newApplications]);
-            //newApplications = [];
             if (applications.length + newApplications.length >= (response.data?.totalCount as number)) {
                 setHasMore(false);
             } else {
